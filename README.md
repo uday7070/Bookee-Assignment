@@ -40,14 +40,15 @@ Requirements:
 
  # Installation
 
-* __For backend__
+* __For backend -__
 * npm install
 * npm start
 
-* __For Frontend__
+* __For Frontend -__
 * cd frontend
 * npm install
 * npm start
 
 
 API server runs at `localhost:8080`
+Frontend server run at `localhost:3000`
