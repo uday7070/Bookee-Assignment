@@ -1,11 +1,8 @@
 
-
-
-
-Requirements:
+# Requirements:
 
 * Use Node.js ( v. =12.22.12)
-* 
+ 
 * NPM v. >=5
 
    # Download node -v 12
