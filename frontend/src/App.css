@@ -1,0 +1,133 @@
+body {
+  min-height: 90vh;
+  background-color: #f1f4f8;
+  overflow-x: hidden;
+}
+.container {
+  width: 50%;
+  margin: auto;
+  background-color: #f1f4f8;
+}
+.container_btn {
+  display: flex;
+  margin: 3rem 2rem 1.5rem 2rem;
+
+  font-size: 25px;
+  font-weight: 500;
+}
+.myshift_btn {
+  margin-right: 1.3rem;
+  text-decoration: none;
+}
+.myshift_link {
+  text-decoration: inherit;
+
+  color: inherit;
+}
+
+.avail_link {
+  text-decoration: inherit;
+
+  color: inherit;
+}
+.avail_container {
+  background-color: white;
+  border: 1px solid #cbd2e1;
+  border-radius: 5px;
+}
+.avail_area {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 1px solid #cbd2e1;
+}
+.area_link {
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.shift_date {
+  display: flex;
+  background-color: #f1f4f8;
+  border-bottom: 1px solid #cbd2e1;
+}
+.shift_date_para {
+  padding: 15px;
+  color: #4f6c92;
+  font-weight: 600;
+  font-size: 17px;
+}
+.shift_time_container {
+  padding: 15px;
+  border-bottom: 1px solid #cbd2e1;
+  color: #4f6c92;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.shift_time {
+  padding: 5px;
+}
+.main_shift_time {
+  padding: 0 5px !important;
+}
+.cancel_btn > button {
+  color: #e2006a;
+  background-color: white;
+  border: 1px solid #fe93b3;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.book_btn > button {
+  color: #16ac4d;
+  background-color: white;
+  border: 1px solid #55cb82;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.shift_area {
+  color: #a4b8d3;
+}
+.total_shifts,
+.total_time {
+  color: #a4b8d3;
+  padding: 15px 0;
+  font-weight: 500;
+}
+.overlap_container {
+  display: flex;
+}
+.overlap_msg {
+  color: #e2006a;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+.booked {
+  opacity: 0.5;
+}
+.cancel_subcontainer {
+  display: flex;
+}
+.cancelled {
+  opacity: 0.5;
+}
+.msg {
+  margin-top: 5px;
+  margin-right: 25px;
+  color: #4f6c92;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
