@@ -4,8 +4,13 @@
 
 Requirements:
 
-* Node.js (recommended v. =12)
+* Use Node.js ( v. =12.22.12)
+* 
 * NPM v. >=5
+
+   # Download node -v 12
+  * nvm alias default 12.22.12
+  * nvm use 12.22.12
 
  # Installation
 
