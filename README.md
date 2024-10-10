@@ -38,11 +38,13 @@ Requirements:
 * Node.js (recommended v. =12)
 * NPM v. >=5
 
-* for backend
+ # Installation
+
+* __For backend__
 npm install
 npm start
 
-* for Frontend
+* __For Frontend__
 cd frontend
 npm install
 npm start
