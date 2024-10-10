@@ -35,12 +35,16 @@ Submission:
 
 Requirements:
 
-* Node.js (recommended v. >=9)
+* Node.js (recommended v. =12)
 * NPM v. >=5
 
-```bash
+```bash for backend
 npm install
 npm start
-```
+```bash for Frontend
+cd frontend
+npm install
+npm start
+
 
 API server runs at `localhost:8080`
