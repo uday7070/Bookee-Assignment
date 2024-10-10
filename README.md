@@ -12,10 +12,14 @@
  # Installation
 
 * __For backend -__
+
+ 
 * npm install
 * npm start
 
 * __For Frontend -__
+
+  
 * cd frontend
 * npm install
 * npm start
